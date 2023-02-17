@@ -49,9 +49,10 @@ pm.dexopt.shared=speed
 ro.opengles.version=196610 
 
 # IMS
-persist.dbg.volte_avail_ovr=1 
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=0
+persist.dbg.wfc_avail_ovr=0
+persist.vendor.mtk.vilte.enable=0
 
 # IPO
 sys.ipo.pwrdncap=2
