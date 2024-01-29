@@ -21,27 +21,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/oneplus/denniz/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Evolution X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-# Official-ify
-ELIXIR_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Evolution X flags
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_CALL_RECORDING := true
 EXTRA_UDFPS_ANIMATIONS := true
-TARGET_REMOVE_APERTURE_CAM := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_denniz
+PRODUCT_NAME := evolution_denniz
 PRODUCT_DEVICE := denniz
-PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := Realme X7 Max 5G
-PRODUCT_MANUFACTURER := oneplus
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := DN2103
+PRODUCT_MANUFACTURER := OnePlus
 
 # Build info
-BUILD_FINGERPRINT := "oneplus/denniz/dennizL1:13/TP1A.220905.001/R.ead5d5-5fba:user/release-keys"
-PRODUCT_BUILD_PROP_OVERRIDES := PRIVATE_BUILD_DESC="sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1677828988354 release-keys"
+BUILD_FINGERPRINT := "OnePlus/DN2103EEA/OP515BL1:13/TP1A.220905.001/R.108b2c1-1:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES := PRIVATE_BUILD_DESC="sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1684289553451 release-keys"
 PRODUCT_PROPERTY_OVERRIDES := ro.build.fingerprint=$(BUILD_FINGERPRINT)
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
