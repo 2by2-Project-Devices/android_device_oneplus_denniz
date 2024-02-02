@@ -529,11 +529,12 @@
         <fqname>IRadioStable/OplusRadio0</fqname>
         <fqname>IRadioStable/OplusRadio1</fqname>
     </hal>
-    <hal format="aidl">
-        <name>vendor.nxp.nxpnfc_aidl</name>
-        <version>1</version>
+    <hal format="hidl">
+        <name>android.hardware.nfc</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
         <interface>
-            <name>INxpNfc</name>
+            <name>INfc</name>
             <instance>default</instance>
         </interface>
     </hal>
