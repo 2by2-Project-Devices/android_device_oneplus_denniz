@@ -40,7 +40,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    alert-slider_daemon
+    KeyHandler \
+    tri-state-key-calibrate
 
 # Screen Density
 TARGET_SCREEN_HEIGHT := 2400
