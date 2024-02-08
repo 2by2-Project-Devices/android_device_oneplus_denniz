@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.realmeparts.overlay">
+
+    <application android:hasCode="false" />
+    <overlay android:targetPackage="com.realmeparts"
+                   android:isStatic="true"
+                   android:priority="50"/>
+</manifest>
