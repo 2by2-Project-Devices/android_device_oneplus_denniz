@@ -17,10 +17,10 @@ if [ -n "${CLEAN_DT_REPOS}" ]; then
 fi
 echo start cloning repos
 VT=vendor/oneplus/denniz/denniz-vendor.mk
-if ! [ -a $VT ]; then git clone https://github.com/nishant6342/vendor_oneplus_denniz -b RMUI4-OSS vendor/oneplus/denniz
+if ! [ -a $VT ]; then git clone https://github.com/nattolecats/proprietary_vendor_oneplus_denniz -b udc vendor/oneplus/denniz
 fi
 KT=kernel/oneplus/denniz/Makefile
-if ! [ -a $KT ]; then git clone --depth=1 https://github.com/nishant6342/kernel_oneplus_denniz -b T kernel/oneplus/denniz
+if ! [ -a $KT ]; then git clone --depth=1 https://github.com/nattolecats/android_kernel_oneplus_denniz -b udc kernel/oneplus/denniz
 fi
 PA=packages/apps/prebuilt-apps/prebuilt-apps.mk
 if ! [ -a $PA ]; then git clone --depth=1 https://gitlab.com/nishant6342/packages_apps_prebuilt-apps packages/apps/prebuilt-apps/
