@@ -71,7 +71,7 @@ function blob_fixup {
         vendor/lib64/libcam.utils.sensorprovider.so)
             "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-v30.so" "${2}"
             ;;
-  esac
+    esac
 }
 
 # Default to sanitizing the vendor folder before extraction

@@ -2582,6 +2582,9 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 -product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk|29f366971d42b0793e8b62d20f259fe6afda0c2e
 -product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk|951d6f43b5965d6d52609dc60c0cb811d5beb93f
 
+# Oplus-framework - DN2103_11_C.10
+-framework/oplus-framework.jar|5313b5e5e42f2b82034ba5abbacc36b0c2e597b7
+
 # IMS
 bin/vtservice
 etc/init/init.vtservice.rc
@@ -2597,7 +2600,6 @@ etc/init/init.vtservice.rc
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
-#-framework/oplus-framework.jar
 lib/libmtk_vt_wrapper.so
 lib/libvcodec_cap.so
 lib/libvcodec_capenc.so
