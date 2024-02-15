@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "vendor_oneplus_denniz",
+    "target_path": "vendor/oneplus/denniz"
+  },
+  {
+    "repository": "kernel_oneplus_denniz",
+    "target_path": "kernel/oneplus/denniz"
+  }
+]
