@@ -6,4 +6,7 @@
 <resources>
     <string name="build_maintainer_summary">lahaina</string>
     <string name="build_maintainer_donate_url">https://twitter.com/RMX3031_cn</string>
+
+    <!-- Build status -->
+    <string name="build_status_summary">Beta</string>
 </resources>
