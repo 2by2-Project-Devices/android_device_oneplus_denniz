@@ -233,6 +233,7 @@
         <item>"/system/framework/services.jar"</item>
         <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
         <item>"/system/bin/surfaceflinger"</item>
+        <item>"/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic"</item>
     </string-array>
 
     <!-- The default refresh rate. Redfin manages this using the peak refresh rate setting, so set
