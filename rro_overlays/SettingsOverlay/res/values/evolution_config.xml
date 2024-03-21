@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (C) 2024 The Evolution X Project
-    SPDX-License-Identifier: Apache-2.0
--->
-<resources>
-    <!-- Whether build status should be shown or not. -->
-    <bool name="config_show_build_status">true</bool>
-</resources>
