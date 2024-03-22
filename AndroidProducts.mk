@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/evolution_denniz.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_denniz-user \
+    evolution_denniz-userdebug \
+    evolution_denniz-eng
